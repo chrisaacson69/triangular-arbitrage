@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Project-specific exclusions ===
+
+# Additional virtual environment names
+env1/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.pyproj
+*.sln
+
+# Claude Code
+.claude/
+
+# Data dumps / caches
+*.csv
+*.json
+!package.json
+!package-lock.json
+
